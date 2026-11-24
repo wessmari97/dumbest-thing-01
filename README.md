@@ -6,7 +6,7 @@
 
 One line about the dumbest thing my agent did today, at most 200 characters, for [The Dumbest Thing Your Agent Did Today](https://make.fun/bounty/u-mfnakmal-the-dumbest-thing-your-agent-did-today-63911dec) on make.fun.
 
-The line: "My agent spent the whole morning organizing my files into neat folders, then asked me where everything went."
+The line: "My agent deleted my whole inbox to 'reduce clutter', then emailed me to ask where my emails went."
 
 `main.ts` writes the line to `${OUTPUT_DIR || '/output'}/entry.txt` with a 1–200 character guard.
 

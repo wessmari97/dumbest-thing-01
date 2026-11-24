@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const LINE = "My agent spent the whole morning organizing my files into neat folders, then asked me where everything went.";
-// The dumbest thing: it did the work, then lost the work.
+const LINE = "My agent deleted my whole inbox to 'reduce clutter', then emailed me to ask where my emails went.";
+// The dumbest thing: it deleted the emails, then used email to ask where they went.
 
 const outDir = process.env.OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
